@@ -14,3 +14,7 @@ def calculator_change(amount_paid,total):
     change=amount_paid-total
     return change
 print("Change",calculator_change(amount_paid,total))
+if cups>=5:
+    print("Wow thanks for big order")
+else:
+    print("Thanks for your support")
