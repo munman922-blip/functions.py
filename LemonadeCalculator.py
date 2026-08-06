@@ -2,14 +2,14 @@ def greet_customer():
     print("Fresh lemonade made just for you")
     print("Welcome to my lemonade stand calculator")
 greet_customer()
-price=float(input("Price of each cup"))
+price=str(input("Price of each cup"))
 cups=int(input("Number of cups bought today"))
 def calculate_total(price,cups):
     total=price*cups
     return total
 total=calculate_total(price,cups)
 print("Total bill",calculate_total(price,cups),"$")
-amount_paid=float(input("Amount paid"))
+amount_paid=str(input("Amount paid"))
 def calculator_change(amount_paid,total):
     change=amount_paid-total
     return change
